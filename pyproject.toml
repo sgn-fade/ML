@@ -1,19 +1,16 @@
-[tool.poetry]
-name = "ml"
+[project]
+name = "lab5"
 version = "0.1.0"
-description = ""
-authors = ["fade <dimabreusgo@gmail.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-numpy = "^2.2.5"
-pandas = "^2.2.3"
-scikit-learn = "^1.6.1"
-seaborn = "^0.13.2"
-xgboost = "^3.0.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+description = "Add your description here"
+requires-python = "==3.12.*"
+dependencies = [
+    "keras>=3.9.2",
+    "keras-nightly>=3.10.0.dev2025050303",
+    "matplotlib>=3.10.1",
+    "notebook>=7.4.1",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.19.0",
+    "tensorflow-datasets>=4.9.8",
+]
